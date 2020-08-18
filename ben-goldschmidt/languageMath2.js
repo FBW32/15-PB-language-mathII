@@ -10,9 +10,5 @@ let classRoom = ['Tommy', 'Max', 'Sara', 'Rammy'];
 
 // ## Create a program that prints a random item from classRoom array.
 
-console.log(classRoom[0]);
-
-// console.log(parseInt(Math.random() * (classRoom[3])) + (classRoom[0]));
-
 let classMate = classRoom[Math.floor(Math.random() * classRoom.length)];
 console.log(classMate);
